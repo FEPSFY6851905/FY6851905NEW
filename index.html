@@ -89,14 +89,14 @@
 </script>
 
     <h3 id="Abstract">Abstract</h3>
-    <pre id="Abstract_InText">
+    <p id="Abstract_InText">
       Abstract
 
 Surgery has evolved from rudimentary techniques in antiquity to highly sophisticated robotic-assisted procedures.
 This transformation reflects advancements in medical knowledge, anesthesia, sterilization, imaging technologies, and robotics.
 Robotic surgery, exemplified by systems like the da Vinci Surgical System, represents a milestone in precision, minimally invasive techniques, and patient outcomes.
 This article explores the journey of surgery through the ages, culminating in the advent of robotic technologies, highlighting the implications for future medical practice.
-    </pre>
+    </p>
 
     <h3 id="Introduction">Introduction</h3>
     <p id="Introduction_InText">
@@ -155,7 +155,7 @@ As these technologies continue to advance, the future of surgery holds exciting 
 
       References
 
-Surgical Robotics Technology. "The History and Evolution of Robotic Surgery." <a href="https://www.google.com/url?sa=tsource=webrct=jopi=89978449url=https://www.surgicalroboticstechnology.com/articles/the-history-and-evolution-of-robotic-surgery/ved=2ahUKEwislp7copKKAxVAa0EAHbi5OFQQFnoECBwQAQusg=AOvVaw2mbyxkSK0c0LSbZphgl_rw"</a>
+Surgical Robotics Technology. "The History and Evolution of Robotic Surgery." <a href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.surgicalroboticstechnology.com/articles/the-history-and-evolution-of-robotic-surgery/&ved=2ahUKEwislp7copKKAxVAa0EAHbi5OFQQFnoECBwQAQ&usg=AOvVaw2mbyxkSK0c0LSbZphgl_rw"</a>
     </p>
 Smithsonian Magazine. "The Past, Present, and Future of Robotic Surgery." <a href="https://www.smithsonianmag.com/innovation/the-past-present-and-future-of-robotic-surgery-180980763/#:~:text=Robots%20have%20been%20found%20in,holes%20instead%20of%20huge%20cuts."</a>
     </p>
@@ -168,39 +168,8 @@ Karger. "Robotic Head and Neck Surgery: History, Technical Evolution." <a href="
 
 
     
-    <!-- Placeholder for total word count -->
-<p id="totalWordCount"></p>
-<hr>
-<script>
-  // Function to calculate and display word count for a specified section
-  function displayWordCount(sectionId, outputId) {
-    // Get the text content from the specified section
-    const text = document.getElementById(sectionId).textContent;
-    // Split text into words based on spaces and filter out any empty strings
-    const wordArray = text.trim().split(/\s+/);
-    // Count the words
-    const wordCount = wordArray.length;
-    // Return the word count for summing purposes
-    return wordCount;
-  }
-  // Function to calculate and display total word count from selected sections
-  function displayTotalWordCount() {
-    // Calculate word count for each section and accumulate the total
-    const IntroductionCount = displayWordCount("Introduction_InText");
-    const AnalysisCount = displayWordCount("Analysis_InText");
-    // Calculate the sum of all selected sections
-    const totalWordCount = IntroductionCount + AnalysisCount;
-    // Display the total word count
-    document.getElementById("totalWordCount").innerText = `Total word count: ${totalWordCount}`;
-  }
-  // Run the function for specific sections and display total count when the page loads
-  window.onload = displayTotalWordCount;
-</script>
-
-
-
-
-
+   
+    
     <!-- Placeholder for total word count -->
 <p id="totalWordCount"></p>
 <hr>
