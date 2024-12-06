@@ -176,23 +176,3 @@ Karger. "Robotic Head and Neck Surgery: History, Technical Evolution." <a href="
     </p>
   
   
-
-<p id="totalWordCount"></p>
-<hr>
-<script>
-  function displayWordCount(sectionId, outputId) {
-    const text = document.getElementById(sectionId).textContent;
-    const wordArray = text.trim().split(/\s+/);
-    const wordCount = wordArray.length;
-    return wordCount;
-  }
-  function displayTotalWordCount() {
-    const AbstractCount = displayWordCount("Abstract_InText");
-    const IntroductionCount = displayWordCount("Introduction_InText");
-    const ArticleCount = displayWordCount("Article_InText");
-    const totalWordCount = AbstractCount + IntroductionCount + Article Count;
-    document.getElementById("totalWordCount").innerText = `Total word count: ${totalWordCount}`;
-  }
-  window.onload = displayTotalWordCount;
-</script>
- 
